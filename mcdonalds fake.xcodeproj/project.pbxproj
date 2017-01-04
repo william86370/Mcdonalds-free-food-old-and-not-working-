@@ -14,6 +14,15 @@
 		933E7AE119CBF96900150128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933E7AE019CBF96900150128 /* Images.xcassets */; };
 		933E7AE419CBF96900150128 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933E7AE219CBF96900150128 /* LaunchScreen.xib */; };
 		933E7AF019CBF96A00150128 /* mcdonalds_fakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E7AEF19CBF96A00150128 /* mcdonalds_fakeTests.m */; };
+		93B92BFC19CC05AE006AE6E4 /* app icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BF619CC05AE006AE6E4 /* app icon.png */; };
+		93B92BFD19CC05AE006AE6E4 /* big deal.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BF719CC05AE006AE6E4 /* big deal.PNG */; };
+		93B92BFE19CC05AE006AE6E4 /* carrior logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BF819CC05AE006AE6E4 /* carrior logo.png */; };
+		93B92BFF19CC05AE006AE6E4 /* IMG_0390.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BF919CC05AE006AE6E4 /* IMG_0390.PNG */; };
+		93B92C0019CC05AE006AE6E4 /* photo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BFA19CC05AE006AE6E4 /* photo-2.png */; };
+		93B92C0119CC05AE006AE6E4 /* redeem.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B92BFB19CC05AE006AE6E4 /* redeem.png */; };
+		93B92C0319CC0803006AE6E4 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B92C0219CC0803006AE6E4 /* select.png */; };
+		93B92C051A1FFFBD006AE6E4 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B92C041A1FFFBD006AE6E4 /* InterfaceBuilderKit.framework */; };
+		93BA56CC1A20E78E0056C207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BA56CB1A20E78E0056C207 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,15 @@
 		933E7AE919CBF96A00150128 /* mcdonalds fakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mcdonalds fakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		933E7AEE19CBF96A00150128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933E7AEF19CBF96A00150128 /* mcdonalds_fakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mcdonalds_fakeTests.m; sourceTree = "<group>"; };
+		93B92BF619CC05AE006AE6E4 /* app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon.png"; sourceTree = "<group>"; };
+		93B92BF719CC05AE006AE6E4 /* big deal.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big deal.PNG"; sourceTree = "<group>"; };
+		93B92BF819CC05AE006AE6E4 /* carrior logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carrior logo.png"; sourceTree = "<group>"; };
+		93B92BF919CC05AE006AE6E4 /* IMG_0390.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0390.PNG; sourceTree = "<group>"; };
+		93B92BFA19CC05AE006AE6E4 /* photo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-2.png"; sourceTree = "<group>"; };
+		93B92BFB19CC05AE006AE6E4 /* redeem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redeem.png; sourceTree = "<group>"; };
+		93B92C0219CC0803006AE6E4 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		93B92C041A1FFFBD006AE6E4 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		93BA56CB1A20E78E0056C207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BA56CC1A20E78E0056C207 /* UIKit.framework in Frameworks */,
+				93B92C051A1FFFBD006AE6E4 /* InterfaceBuilderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,8 @@
 		933E7AC719CBF96800150128 = {
 			isa = PBXGroup;
 			children = (
+				93BA56CB1A20E78E0056C207 /* UIKit.framework */,
+				93B92C041A1FFFBD006AE6E4 /* InterfaceBuilderKit.framework */,
 				933E7AD219CBF96900150128 /* mcdonalds fake */,
 				933E7AEC19CBF96A00150128 /* mcdonalds fakeTests */,
 				933E7AD119CBF96900150128 /* Products */,
@@ -88,6 +110,7 @@
 				933E7ADD19CBF96900150128 /* Main.storyboard */,
 				933E7AE019CBF96900150128 /* Images.xcassets */,
 				933E7AE219CBF96900150128 /* LaunchScreen.xib */,
+				93B92BF519CC05AE006AE6E4 /* mcdonalds app */,
 				933E7AD319CBF96900150128 /* Supporting Files */,
 			);
 			path = "mcdonalds fake";
@@ -117,6 +140,20 @@
 				933E7AEE19CBF96A00150128 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93B92BF519CC05AE006AE6E4 /* mcdonalds app */ = {
+			isa = PBXGroup;
+			children = (
+				93B92C0219CC0803006AE6E4 /* select.png */,
+				93B92BF619CC05AE006AE6E4 /* app icon.png */,
+				93B92BF719CC05AE006AE6E4 /* big deal.PNG */,
+				93B92BF819CC05AE006AE6E4 /* carrior logo.png */,
+				93B92BF919CC05AE006AE6E4 /* IMG_0390.PNG */,
+				93B92BFA19CC05AE006AE6E4 /* photo-2.png */,
+				93B92BFB19CC05AE006AE6E4 /* redeem.png */,
+			);
+			path = "mcdonalds app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +205,7 @@
 				TargetAttributes = {
 					933E7ACF19CBF96900150128 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 2U2K8SJ7Q7;
 					};
 					933E7AE819CBF96A00150128 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,9 +237,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B92C0119CC05AE006AE6E4 /* redeem.png in Resources */,
+				93B92BFF19CC05AE006AE6E4 /* IMG_0390.PNG in Resources */,
+				93B92BFD19CC05AE006AE6E4 /* big deal.PNG in Resources */,
 				933E7ADF19CBF96900150128 /* Main.storyboard in Resources */,
+				93B92BFE19CC05AE006AE6E4 /* carrior logo.png in Resources */,
+				93B92BFC19CC05AE006AE6E4 /* app icon.png in Resources */,
 				933E7AE419CBF96900150128 /* LaunchScreen.xib in Resources */,
 				933E7AE119CBF96900150128 /* Images.xcassets in Resources */,
+				93B92C0019CC05AE006AE6E4 /* photo-2.png in Resources */,
+				93B92C0319CC0803006AE6E4 /* select.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +388,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = "mcdonalds fake/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +405,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = "mcdonalds fake/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +471,7 @@
 				933E7AF519CBF96A00150128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		933E7AF619CBF96A00150128 /* Build configuration list for PBXNativeTarget "mcdonalds fakeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +480,7 @@
 				933E7AF819CBF96A00150128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
